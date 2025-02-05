@@ -16,8 +16,9 @@ export default function Home() {
 				/>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
 					<Card title="CoreDrafting" link="coredrafting.com" />
-					<Card title="CoreRealEstate" />
-					<Card title="CoreCare" />
+					<Card title="CoreRealEstate" link="corerealestate.agency" />
+					<Card title="CoreLotStore" link="corelotstore.com" />
+					<Card title="CoreCare" link="corecare.services" />
 					<Card title="Remmersion" link="remmersion.com" />
 				</div>
 			</main>
