@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Footer from './components/footer';
 import Card from './components/card';
 
 export default function Home() {
