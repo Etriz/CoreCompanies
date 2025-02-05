@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Footer from './components/footer';
+import Card from './components/card';
 
 export default function Home() {
 	return (
@@ -36,6 +37,12 @@ export default function Home() {
 						rel="noopener noreferrer">
 						Read our docs
 					</a>
+				</div>
+				<div className="grid grid-cols-2 gap-4 items-center">
+					<Card title='CoreDrafting' link='coredrafting.com' />
+					<Card title='CoreRealEstate' />
+					<Card title='CoreCare' />
+					<Card title='Remmersion' link='remmersion.com' />
 				</div>
 			</main>
 			<Footer />
