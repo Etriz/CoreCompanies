@@ -13,7 +13,7 @@ export default function Footer() {
 			<div className="flex flex-col md:flex-row gap-2 md:gap-6 col-start-3 md:items-end md:justify-end">
 				<a
 					className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-					href=""
+					href="https://www.linkedin/com/company/core-companies/"
 					target="_blank"
 					rel="noopener noreferrer">
 					<Image

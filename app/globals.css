@@ -12,3 +12,10 @@ body {
 	background: var(--background);
 	font-family: Arial, Helvetica, sans-serif;
 }
+#contact > div > label:after {
+	content: ' *';
+	color: red;
+}
+#contact > :nth-child(4) > label:after {
+	content: '';
+}
