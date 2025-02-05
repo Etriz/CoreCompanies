@@ -1,18 +1,15 @@
-'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
 
 export default function Header() {
-	const [active, setActive] = useState();
 	return (
-		<header className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+		<header className="bg-gray-800 flex gap-8 items-center justify-center py-4 border-b border-gray-500">
 			<Image
 				className="dark:invert"
 				src="/corelogo.svg"
 				alt="Core logo"
-				width={100}
-				height={100}
+				width={50}
+				height={50}
 				priority
 			/>
 			<Link
