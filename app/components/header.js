@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Header() {
 	return (
-		<header className="bg-gray-800 flex gap-8 items-center justify-center py-4 border-b border-gray-500">
+		<header className="bg-gray-950 flex gap-8 items-center justify-center py-4 border-b border-gray-500">
 			<Image
 				className="dark:invert"
 				src="/corelogo.svg"

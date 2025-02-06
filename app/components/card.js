@@ -8,7 +8,7 @@ const Card = (props) => {
 	};
 	return (
 		<div
-			className="bg-gray-300 text-black rounded-md shadow-lg p-4 cursor-pointer"
+			className="bg-gray-100 text-black rounded-md shadow-lg p-4 cursor-pointer"
 			onClick={handleClick}>
 			<h2 className="font-bold text-2xl">
 				{props.title || 'Card Title'}

@@ -10,7 +10,11 @@
 body {
 	color: var(--foreground);
 	background: var(--background);
+	background: no-repeat center/cover url('../public/black-background.svg');
 	font-family: Arial, Helvetica, sans-serif;
+}
+p {
+	text-indent: 1rem;
 }
 #contact > div > label:after {
 	content: ' *';

@@ -8,7 +8,7 @@ export default function Footer() {
 		return year;
 	};
 	return (
-		<footer className="grid grid-cols-2 gap-6 items-center justify-center py-4 border-t border-gray-700 px-16 md:grid-cols-3 md:fixed md:bottom-0 md:left-0 md:right-0">
+		<footer className="grid items-center justify-center py-4 px-8 md:px-16 border-t border-gray-700 grid-cols-3 md:fixed md:bottom-0 md:left-0 md:right-0">
 			<div className="col-start-1">&#169; {getYear()} Core-Companies</div>
 			<div className="flex flex-col md:flex-row gap-2 md:gap-6 col-start-3 md:items-end md:justify-end">
 				<a
