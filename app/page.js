@@ -30,30 +30,30 @@ export default function Home() {
 				/>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
 					<Card
-						title="CoreDrafting"
-						link="coredrafting.com"
+						title="Core Design Service"
+						link="coredesignservice.com"
 						description={draftingDescription()}
 					/>
 					<Card
-						title="CoreRealEstate"
+						title="Core Real Estate"
 						link="corerealestate.agency"
 						description={realEstateDescription()}
 					/>
 					<Card
-						title="CoreLotStore"
+						title="Core Lot Store"
 						link="corelotstore.com"
 						description={lotStoreDescription()}
 					/>
-					<Card
+					{/* <Card
 						title="CoreCare"
 						link="corecare.services"
 						description={coreCareDescription()}
-					/>
-					<Card
+					/> */}
+					{/* <Card
 						title="Remmersion"
 						link="remmersion.com"
 						description={remmersionDescription()}
-					/>
+					/> */}
 				</div>
 			</main>
 		</div>
